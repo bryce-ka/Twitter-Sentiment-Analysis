@@ -41,10 +41,6 @@ Here are a few examples of how you can use this script:
 - Monitoring public sentiment towards a particular brand or product.
 - Understanding the sentiment associated with a specific hashtag.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - This script uses the [csc121](https://pypi.org/project/csc121/) library for sentiment analysis.
