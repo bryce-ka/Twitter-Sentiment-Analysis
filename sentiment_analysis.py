@@ -135,10 +135,9 @@ def analyze_tweets(keyword):
   return sent
 
 def main():
-  #(keyword):
   keyword = input("enter a keyword: ")
   
-  #print(analyze_tweets(keyword))
+#   print(analyze_tweets(keyword))
 
 if __name__ == "__main__":
   main()
