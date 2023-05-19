@@ -1,6 +1,6 @@
 # Twitter Sentiment Analysis
 
-This Python script allows you to perform sentiment analysis on tweets related to a user-entered keyword. It uses the Twitter API to retrieve tweets and then applies a sentiment analysis algorithm to determine the sentiment (positive, negative, or neutral) associated with each tweet.
+Written when Twitter's API was free to use, this Python script allowed you to perform sentiment analysis on tweets related to a user-entered keyword. It used the Twitter API to retrieve tweets and then applied a sentiment analysis algorithm to determine the sentiment (positive, negative, or neutral) associated with each tweet. This program was written in the spring of 2020
 
 ## Prerequisites
 
