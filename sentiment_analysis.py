@@ -88,7 +88,7 @@ def adjust_tweet(tweets):
 
 def keyword_sent(lst):
   """
-  computes the sentiment of all tweets by averaging th esentiment of each tweet.
+  computes the sentiment of all tweets by averaging the sentiment of each tweet.
   parameters:
     lst - a list of the sentiment values of each tweet.
   returns:
@@ -117,7 +117,7 @@ def analyze_tweets(keyword):
   """
   try:
     tweets = get_tweets(keyword)
-  
+    print(tweets)
     lst = adjust_tweet(tweets)
     sent = keyword_sent(lst)
 
@@ -136,8 +136,8 @@ def analyze_tweets(keyword):
 
 def main():
   keyword = input("enter a keyword: ")
+  print(analyze_tweets(keyword))
   
-#   print(analyze_tweets(keyword))
 
 if __name__ == "__main__":
   main()
